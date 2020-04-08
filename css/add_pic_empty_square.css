@@ -1,0 +1,8 @@
+
+/*para que en la página de añadir imagen haya un cuadrado y no un hueco vacío*/
+
+.square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}

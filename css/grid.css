@@ -1,0 +1,16 @@
+p{
+    font-size: 1vw;
+}
+
+
+@media (max-width: 1024px) {
+    p{
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width: 768px) {
+    p{
+        font-size: 4vw;
+    }
+}

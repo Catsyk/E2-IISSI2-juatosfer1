@@ -1,0 +1,46 @@
+.usuarios{
+    position: absolute;
+    z-index:100;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    margin-left: 2%;
+    transform: scale(0.8, 0.8);
+    min-width: 20%;
+    max-width: max-content;
+}
+
+h3{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+    .usuarios{
+        position: relative;
+        top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+    h3{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .usuarios{
+        margin-top: 10%;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .usuarios{
+        margin-top: 10%;
+        min-width: 100%;
+    }
+    h3{
+        display: inline-block;
+    }
+}
